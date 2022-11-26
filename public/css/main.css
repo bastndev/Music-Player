@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1b1c23;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sono', sans-serif;
+}
+/* Design of Project */
+.container
+{
+    position: relative;
+    width: 370px;
+    height: 490px;
+    border-radius:30px;
+    border: 2px solid #ffffff;
+    background: #efefef;
+    -webkit-box-shadow: 17px 17px 29px #0b0b0e, -17px -17px 29px #2b2d38;
+    box-shadow: 17px 17px 29px #0b0b0e, -17px -17px 29px #2b2d38;
+}
+/* Image position and Animation */
+.image
+{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+img{
+    width: 250px;
+    border-radius: 30px;
+    border: 2px solid #ffc800;
+    background: #1b1c23;
+    -webkit-box-shadow: 12px 12px 54px #efefef, -12px -12px 10px #efefef;
+    box-shadow: 12px 12px 54px #17181e, -12px -12px 20px #efefef;
+}
+/* Volumen Animation */
+.volumen
+{
+    transform: rotate(-90deg);
+    width: 230px;
+    height: 20px;
+    background:rgb(255, 255, 255);
+    -webkit-appearance: none;
+    border-radius: 15px;
+    border: 1px solid #ffc800;
+    overflow: hidden;
+    border-radius: 50px;
+    background: #efefef;
+    -webkit-box-shadow: 12px 12px 24px #cbcbcb, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #cbcbcb, -12px -12px 24px #ffffff;
+}
+.volumen::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffc800;
+    cursor: pointer;
+    box-shadow: -407px 0 0 400px #ffc800
+}
+/* Names of Music */
+h2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    /* color: #ffc800; */
+}
+/* Muisc icon */
+.musica
+{
+    margin-left: 13px;
+    margin-top: 15px;
+    position: relative;
+    width: 340px;
+    max-height: 55px;
+    background: #efefef;
+    border: 1.5px solid #ffc800;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: -10px -10px 15px #efefef,
+                10px 10px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 15px #efefef,
+                inset 5px 5px 15px  rgba(0,0,0,0.1);
+}
+/* Btn Animation */
+.btns
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.btns span:active,
+.btns span.active
+{
+    color: white;
+    background-color:  #ffc800;
+}
+.btns span
+{
+    padding: 0;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #efefef;
+    border: 1.5px solid #ffc800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btns span.playPause
+{
+    width: 70px;
+    height: 70px;
+}
+.btns span ion-icon
+{
+    font-size: 2em;
+}
+
+.btns span.playPause ion-icon
+{
+    font-size: 3em;
+}
+/* Social Media */
+.social
+{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50px;
+    height: 200px;
+    /* background-color: #0606f0; */
+    cursor: pointer;
+
+}
+.media ion-icon
+{
+
+    font-size: 2em;
+    padding-top: 30px ;
+    cursor: pointer;
+}
+/* Loop */
+.loop{
+    position: absolute;
+    margin-top: 230px;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    display:inline;
+}
+.pe ion-icon
+{
+    font-size: 2em;
+    padding: 2px ;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    background-color: #efefef;
+    border: 2px solid #ffc800;
+    cursor: pointer;
+    
+}
+.loop span :hover
+{
+    color: #ffc800;
+    border: 2px solid #efefef;
+}
+/* Dowloand and heart */
+a{
+    text-decoration: none;
+    color: #2b2d38;
+}
+/* Volumen icon */
+.sound
+{
+    position: absolute;
+    color: #2b2d38;
+    font-size: 20px;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+/* Icon Animation  Volumen*/
+.icon{
+    position: absolute;
+    padding-top: 160px;
+    padding-left: 60px;
+
+}

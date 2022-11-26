@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="icon" href="src/icon/dev.png">
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+    <title>@bastndev</title>
+    <script src="/public/js/main.js" defer></script>
+</head>
+<body>
+    <!-- Contenedor -->
+    <div class="container">
+        <div class="sound">
+            <span class="soun">
+                <ion-icon name="volume-high-outline"></ion-icon>
+            </span>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div class="social">
+            <span class="media">
+                <ion-icon name="logo-tiktok"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <a href="https://www.instagram.com/bastndev/" target="-blank">
+                    <ion-icon name="logo-instagram"></ion-icon> 
+                </a> 
+            </span>
+        </div> 
+
+        <div class="loop">
+            <span class="pe">
+                <a href="/src/music/on4.mp3" download="">
+                <ion-icon name="cloud-download-outline"></ion-icon>
+                </a>
+                <a href="https://www.paypal.com/paypalme/Marhuire" target="_blank">
+                <ion-icon name="heart-outline"></ion-icon>
+                </a>
+            </span>
+        </div>
+        <!-- Volumen -->
+        <div class="icon">
+            <input class="volumen" type="range" max="1" min="0" step="0.02">
+        </div>
+        <!-- Imagen -->
+        <div class="image">
+            <img src="src/img/do1.gif" id="image_shower">
+        </div>
+        <!-- Nombre de la cancion -->
+            <h2 class="title">Name Music</h2>
+        <!-- Musica -->
+        <div class="musica">
+            <audio src=""></audio>
+            <div class="btns">
+                <span class="prev" onclick="get_radom_image()">
+                    <ion-icon name="play-back-circle-outline"></ion-icon>
+                </span>
+                <span class="playPause">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </span>
+                <span class= "Next" onclick="get_radom_image()">
+                    <ion-icon name="play-forward-circle-outline"></ion-icon>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
